@@ -19,5 +19,4 @@ int main()
    valliquido = ((valbruto*0.92));
    printf("O valor liquido do salario eh R$%.2f", valliquido);
   }
-
 }
