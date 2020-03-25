@@ -21,6 +21,4 @@ int main()
 	    if((j % 5 == 2)||(j % 5 == 3)) printf("%d\n", j);
            }
          }
- 
-    return 0;
   }
