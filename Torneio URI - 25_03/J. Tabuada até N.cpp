@@ -12,5 +12,5 @@ int main()
        	 PROD = i*N;
      	 printf("%d x %d = %d\n", i, N, PROD);
      	 i++;
-	    }
+       }
   }
