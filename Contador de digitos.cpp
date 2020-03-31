@@ -15,4 +15,5 @@ int main()
 	
 	printf("O numero tem %d digitos.", i);
 	
+        return 0;
  }
