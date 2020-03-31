@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 int main()
   {
   	int N = 0;
@@ -9,24 +9,20 @@ int main()
   	for(i == 0; i < N;  i++)
 	  {
 	  	scanf("%d", &X[i]);
-	  }
-	i = 0;
-  	for(i == 0; i < N; i++)
-  	  {
-  	  	int C = X[i];;
+	  	int C = X[i];;
   	  	if(C != 0)
-  	  	   {
+  	  	 {
   	  	   	if(C > 0)
 			 {
 				   
   	  	        if((C % 2) == 0)
-			    { 
-  	  	   	        printf("EVEN POSITIVE\n");
-  	  	        }
-  	  	         else
-  	  	        {
-  	  	        	printf("ODD POSITIVE\n");
-			    }
+			     { 
+  	  	   	       printf("EVEN POSITIVE\n");
+  	  	         }
+  	  	        else
+  	  	         {
+  	  	           printf("ODD POSITIVE\n");
+			     }
 		     }
 		    else
 		     {
@@ -40,13 +36,12 @@ int main()
 				 }
 			 }    
 			 
-		    }
-	    
-	    
+	     }
+
 		else
-	   	   {
+	   	 {
 		    printf("NULL\n");
-		   }
-  	  	
+		 }
    	  }
+   	return 0;
   }
