@@ -9,4 +9,6 @@ int main()
    	 volume = ((velmedia*tempo)/12.00);
    	 
    	 printf("%.3f\n", volume);
+   
+       return 0;
    }
