@@ -10,19 +10,23 @@ void trocaVogal(char str[]);
 int main()
   {
   	char frase[100];
+  	
   	printf("Digite a frase que tera as vogais trocadas: ");
 	fgets(frase, 100, stdin);
 	setbuf(stdin, NULL);
+	
 	trocaVogal(frase);
 	printf("\nFrase com vogais trocadas: %s", frase);
+	
+	return 0;
   }
   
 void trocaVogal(char str[])
   {
   	char *pfrase;
+  	int i;
   	pfrase = &str[0];
   	setbuf(stdin, NULL);
-  	int i;
   	
   	for(i = 0; i < strlen(str); i++)
   	  {
