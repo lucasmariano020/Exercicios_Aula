@@ -8,20 +8,20 @@ void calc_circulo(float r, float *area, float *perimetro);
 
 int main()
   {
-  	float diametro, area, *areap, perimetro, *perimetrop;
-  	areap = &area;
-  	perimetrop = &perimetro;
+    float diametro, area, *areap, perimetro, *perimetrop;
+    areap = &area;
+    perimetrop = &perimetro;
   	
-  	printf("Digite o diametro do circulo pelo qual a area e o perimetro sera calculado: ");
-  	scanf("%f", &diametro);
+    printf("Digite o diametro do circulo pelo qual a area e o perimetro sera calculado: ");
+    scanf("%f", &diametro);
   	
-  	if(diametro >= 0)
-  	  {
-	  	calc_circulo((diametro/2), areap, perimetrop);
-	  	printf("O circulo tem area: %.2fu e perimetro: %.2fu\n", area, perimetro);
+    if(diametro >= 0)
+     {
+       calc_circulo((diametro/2), areap, perimetrop);
+        printf("O circulo tem area: %.2fu e perimetro: %.2fu\n", area, perimetro);
       }
       
-    else
+     else
       {
         printf("Somente numero positivo ou igual a 0");
         return 1;
